@@ -151,6 +151,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-contacts-link:hover,
@@ -337,7 +338,6 @@ img {
 .link-icons:hover,
 .link-icons:focus {
     background-color: #404bbf;
-    ;
 }
 
 .icon {
@@ -369,6 +369,7 @@ img {
 
 .portfolio-list-item {
     background: #fff;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-list-item:hover {
@@ -403,10 +404,8 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     height: 100%;
-    padding: 40px 32px 164px 32px;
+    padding: 40px 32px;
     transform: translateY(100%);
-
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item-subtitle {
