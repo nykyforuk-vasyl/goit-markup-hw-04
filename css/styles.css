@@ -64,7 +64,6 @@ img {
 
 .header-wrap-nav {
     display: flex;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -217,11 +216,12 @@ img {
     gap: 24px;
 }
 
-.features-list-item {}
+.features-list-item {
+    width: calc((100% - 3 * 24px) / 4);
+}
 
 .icon-wrap {
     display: flex;
-    max-width: 264px;
     background: #f4f4fd;
     border: 1px solid #8e8f99;
     border-radius: 4px;
